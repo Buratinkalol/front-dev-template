@@ -2,7 +2,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             sass: {
-                files: ['src/css/*.scss'],
+                files: ['src/**/*.scss'],
                 tasks: ['sass'],
                 options: {
                     atBegin: true
@@ -10,9 +10,9 @@ module.exports = function (grunt) {
             },
             server: {
                 files: [
-                    'src/js/**/*.js',
-                    'src/html/**/*.html',
-                    'src/css/**/*.css'
+                    'src/**/*.js',
+                    'src/**/*.html',
+                    'src/**/*.css'
                 ],
                 options: {
                     iterrupt: true,
