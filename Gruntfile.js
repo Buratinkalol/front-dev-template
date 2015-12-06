@@ -15,7 +15,7 @@ module.exports = function (grunt) {
                     'src/**/*.css'
                 ],
                 options: {
-                    iterrupt: true,
+                    interrupt: true,
                     livereload: true
                 }
             }
